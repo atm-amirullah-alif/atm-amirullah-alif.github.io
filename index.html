@@ -1,7 +1,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>body {
-    font-size: 26px; /* Example font size */
+    font-size: 26px;
 }
 
 /* Styles for screens smaller than 768px (typical mobile breakpoint) */
@@ -27,6 +27,21 @@ background-color: #28B485;
     justify-content: center; /* Center elements horizontally */
     align-items: center;/* Center elements vertically (optional) */
   }
+@media screen and (max-width: 768px) {
+#two {
+box-sizing: border-box;
+      border: 5px solid #00ffff;
+background-color: #28B485;
+      padding: 10px; /* Example padding */
+      width: 700px; /* Width will include padding and border */
+      height: 320px;
+     display: flex; /* Make the body a flex container */
+    justify-content: center; /* Center elements horizontally */
+    align-items: center;/* Center elements vertically (optional) */
+  }
+
+}
+
 hr {
   border-color:  #FF00FF;
   border-width: 11px; /* Makes the line thicker */
